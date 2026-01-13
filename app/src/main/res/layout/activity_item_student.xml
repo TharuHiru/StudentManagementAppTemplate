@@ -1,0 +1,17 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_marginRight="20px" android:layout_marginLeft="20px" app:cardElevation="4dp" app:cardCornerRadius="8dp" app:cardBackgroundColor="#bffcf9">
+    >
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+        <TextView android:id="@+id/tvStudentName" android:text="Name: John Doe" android:textStyle="bold" android:textSize="16sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvStudentIndex" android:text="Index: 1001" android:layout_marginTop="20px" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvStudentGender" android:text="Gender : Male" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvStudentGrade" android:text="Grade: 10" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvStudentContact" android:text="Contact: 0771234567" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvStudentAddress" android:text="Address : America" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvStudentGuardian" android:text="Guardian : John" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <!--  Buttons  -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="end" android:layout_marginTop="8dp">
+            <Button android:id="@+id/btnEdit" android:text="Edit" android:textColor="@android:color/white" android:backgroundTint="#1800ff" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btnDelete" android:text="Delete" android:textColor="@android:color/white" android:backgroundTint="#F44336" android:layout_marginStart="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
